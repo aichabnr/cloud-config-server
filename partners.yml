@@ -10,8 +10,7 @@ server:
   port: 8077
 
 
-  profiles:
-    active: dev,mysql
+
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/partners
