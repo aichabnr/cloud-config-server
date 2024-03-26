@@ -13,6 +13,6 @@ spring:
           enabled: true
       routes:
         - id: partners
-          uri: lb://PARTNERS-SERVICE # Utilisation de lb:// pour l'équilibrage de charge via Ribbon
+          uri: http://localhost:8077
           predicates:
             - Path=/partners/**
