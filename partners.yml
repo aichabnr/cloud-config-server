@@ -1,10 +1,7 @@
-
-
-
 server:
   port: 8077
 
-
+spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/partners
@@ -15,5 +12,3 @@ server:
       ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
-
-
