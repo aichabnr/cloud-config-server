@@ -1,3 +1,6 @@
+
+
+
 eureka:
   client:
     register-with-eureka: true
@@ -17,6 +20,7 @@ server:
         uri: http://localhost:8077
         predicates:
           - Path=/partners/**
+
 
 
 
