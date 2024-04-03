@@ -1,7 +1,8 @@
 eureka:
   client:
     register-with-eureka: true
-
+    service-url:
+      defaultZone: http://localhost:9102/eureka/
 server:
   port: 9103
 
@@ -16,7 +17,4 @@ spring:
           uri: http://localhost:8077
           predicates:
             - Path=/partners/**
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:9102/eureka/
+
